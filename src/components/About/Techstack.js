@@ -1,6 +1,11 @@
 import { React, useState } from "react";
 import { Row } from "react-bootstrap";
 import atenas from "../../Assets/atenas.png";
+import negrito from "../../Assets/negrito.jpeg";
+import polonia from "../../Assets/polonia.jpeg";
+import lalo from "../../Assets/lalo.jpeg";
+import cali from "../../Assets/cali.jpeg";
+import atenasUltima from "../../Assets/atenas-ultima.png";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -21,12 +26,29 @@ function Techstack() {
   return (
     <body>
       <article className="contenedor">
-        <div style={{border: "3px solid violet"}} class="planta">
+        <img  style={{ width: "120px", height: "140px" }} src={negrito}/>
+        <img  style={{ width: "120px", height: "140px" }} src={negrito}/>
+        <img  style={{ width: "120px", height: "140px" }} src={negrito}/>
+        <img  style={{ width: "120px", height: "140px" }} src={polonia}/>
+        <img  style={{ width: "120px", height: "140px" }} src={polonia}/>
+        <img  style={{ width: "120px", height: "140px" }} src={polonia}/>
+        <img  style={{ width: "120px", height: "140px" }} src={polonia}/>
+        <img  style={{ width: "120px", height: "140px" }} src={lalo}/>
+        <img  style={{ width: "120px", height: "140px" }} src={lalo}/>
+        <img  style={{ width: "120px", height: "140px" }} src={lalo}/>
+        <img  style={{ width: "120px", height: "140px" }} src={cali}/>
+        <img  style={{ width: "120px", height: "140px" }} src={cali}/>
+        <img  style={{ width: "120px", height: "140px" }} src={cali}/>
+        <img  style={{ width: "120px", height: "140px" }} src={cali}/>
+        <img  style={{ width: "120px", height: "140px" }} src={cali}/>
+        <img  style={{ width: "120px", height: "140px" }} src={negrito}/>
+        {/* <div style={{border: "3px solid violet"}} class="planta">
           <CardMedia 
             component="img"
                style={{ width: "120px", height: "140px" }}            // height="250"
             // image={atenas}
-            image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/001.png"
+            // image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/001.png"
+            image={atenasUltima}
             alt="green iguana"
           />
           <h5 style={{fontSize: "13px"}}>Bulbasaur</h5>
@@ -46,7 +68,7 @@ function Techstack() {
             component="img"
               style={{ width: "120px", height: "140px" }}           // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
-            image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/003.png"
+            image={negrito}
             alt="green iguana"
           />
           <h5 style={{fontSize: "13px"}}>Venusaur</h5>
@@ -110,7 +132,7 @@ function Techstack() {
             alt="green iguana"
           />
           <h5 style={{fontSize: "13px"}}>Blastoise</h5>
-        </div>
+        </div> */}
       </article>
     </body>
   );
