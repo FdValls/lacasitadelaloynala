@@ -24,7 +24,7 @@ function Techstack() {
         <div style={{border: "3px solid violet"}} class="planta">
           <CardMedia 
             component="img"
-             style={{ width: "60px", height: "80px" }}
+               style={{ width: "100px", height: "120px" }}
             // height="250"
             // image={atenas}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/001.png"
@@ -35,8 +35,7 @@ function Techstack() {
         <div style={{border: "3px solid violet"}} class="planta">
           <CardMedia
             component="img"
-            style={{ width: "60px", height: "80px" }}
-            // height="250"
+              style={{ width: "100px", height: "120px" }}            // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/001.png"
             alt="green iguana"
@@ -46,8 +45,7 @@ function Techstack() {
         <div style={{border: "3px solid violet"}} class="planta">
           <CardMedia
             component="img"
-            style={{ width: "60px", height: "80px" }}
-            // height="250"
+              style={{ width: "100px", height: "120px" }}            // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/003.png"
             alt="green iguana"
@@ -57,8 +55,7 @@ function Techstack() {
         <div style={{border: "3px solid violet"}} class="fuego">
           <CardMedia
             component="img"
-            style={{ width: "60px", height: "80px" }}
-            // height="250"
+              style={{ width: "100px", height: "120px" }}            // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/004.png"
             alt="green iguana"
@@ -68,8 +65,7 @@ function Techstack() {
         <div style={{border: "3px solid violet"}} class="fuego">
           <CardMedia
             component="img"
-            style={{ width: "60px", height: "80px" }}
-            // height="250"
+              style={{ width: "100px", height: "120px" }}            // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/005.png"
             alt="green iguana"
@@ -79,8 +75,7 @@ function Techstack() {
         <div style={{border: "3px solid violet"}} class="fuego">
           <CardMedia
             component="img"
-            style={{ width: "60px", height: "80px" }}
-            // height="250"
+              style={{ width: "100px", height: "120px" }}            // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/006.png"
             alt="green iguana"
@@ -90,8 +85,7 @@ function Techstack() {
         <div style={{border: "3px solid violet"}} class="agua">
           <CardMedia
             component="img"
-            style={{ width: "60px", height: "80px" }}
-            // height="250"
+              style={{ width: "100px", height: "120px" }}            // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/007.png"
             alt="green iguana"
@@ -101,8 +95,7 @@ function Techstack() {
         <div style={{border: "3px solid violet"}} class="agua">
           <CardMedia
             component="img"
-            style={{ width: "60px", height: "80px" }}
-            // height="250"
+              style={{ width: "100px", height: "120px" }}            // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/008.png"
             alt="green iguana"
@@ -112,24 +105,12 @@ function Techstack() {
         <div style={{border: "3px solid violet"}} class="agua">
           <CardMedia
             component="img"
-            style={{ width: "60px", height: "80px" }}
-            // height="250"
+              style={{ width: "100px", height: "120px" }}            // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/009.png"
             alt="green iguana"
           />
           <h5 style={{fontSize: "13px"}}>Blastoise</h5>
-        </div>
-        <div style={{border: "3px solid violet"}} class="veneno">
-          <CardMedia
-            component="img"
-            style={{ width: "60px", height: "80px" }}
-            // height="250"
-            // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
-            image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/109.png"
-            alt="green iguana"
-          />
-          <h5 style={{fontSize: "13px"}}>Koffing</h5>
         </div>
       </article>
     </body>
