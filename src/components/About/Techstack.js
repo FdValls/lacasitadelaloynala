@@ -30,7 +30,7 @@ function Techstack() {
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/001.png"
             alt="green iguana"
           />
-          <h5 style={{fontSize: "13px"}} style={{fontSize: "13px"}}>Bulbasaur</h5>
+          <h5 style={{fontSize: "13px"}}>Bulbasaur</h5>
         </div>
         <div style={{border: "3px solid violet"}} class="planta">
           <CardMedia
