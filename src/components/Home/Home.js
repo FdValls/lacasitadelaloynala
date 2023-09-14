@@ -29,7 +29,7 @@ function Home() {
                 className="heading-name"
               >
                 Bienvenidos a{" "}
-                <strong className="main-name"> La casita Lalo y Nala" </strong>
+                <strong className="main-name"> La casita Lalo y Nala </strong>
               </h1>
               <br />
               <h1 className="heading-name">
@@ -39,14 +39,27 @@ function Home() {
                   sus humanos se van de vacaciones o requieran algunos días de
                   cuidado.
                 </p>
-                {/* <strong className="main-name"> Gabriela </strong> */}
               </h1>
-              <div style={{ padding: 50, textAlign: "left", fontSize: "20px", marginBottom: "10px"}}>
-                <Type/>
+              <div
+                style={{
+                  padding: 50,
+                  textAlign: "left",
+                  fontSize: "20px",
+                  marginBottom: "10px",
+                }}
+              >
+                <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20, textAlign: "center", marginTop: "100px" }}>
+            <Col
+              md={5}
+              style={{
+                paddingBottom: 20,
+                textAlign: "center",
+                marginTop: "100px",
+              }}
+            >
               <img
                 src={mainPhoto}
                 alt="home pic"
