@@ -21,203 +21,115 @@ function Techstack() {
   return (
     <body>
       <article className="contenedor">
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="planta">
+        <div style={{border: "3px solid violet"}} class="planta">
           <CardMedia 
             component="img"
-             style={{ width: "140px", height: "90px" }}
+             style={{ width: "60px", height: "80px" }}
             // height="250"
             // image={atenas}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/001.png"
             alt="green iguana"
           />
-          <h5>Bulbasaur</h5>
+          <h5 style={{fontSize: "13px"}} style={{fontSize: "13px"}}>Bulbasaur</h5>
         </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="planta">
+        <div style={{border: "3px solid violet"}} class="planta">
           <CardMedia
             component="img"
-             style={{ width: "140px", height: "90px" }}
+            style={{ width: "60px", height: "80px" }}
             // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/001.png"
             alt="green iguana"
           />
-          <h5>Ivysaur</h5>
+          <h5 style={{fontSize: "13px"}}>Ivysaur</h5>
         </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="planta">
+        <div style={{border: "3px solid violet"}} class="planta">
           <CardMedia
             component="img"
-             style={{ width: "140px", height: "90px" }}
+            style={{ width: "60px", height: "80px" }}
             // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/003.png"
             alt="green iguana"
           />
-          <h5>Venusaur</h5>
+          <h5 style={{fontSize: "13px"}}>Venusaur</h5>
         </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="fuego">
+        <div style={{border: "3px solid violet"}} class="fuego">
           <CardMedia
             component="img"
-             style={{ width: "140px", height: "90px" }}
+            style={{ width: "60px", height: "80px" }}
             // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/004.png"
             alt="green iguana"
           />
-          <h5>Charmander</h5>
+          <h5 style={{fontSize: "13px"}}>Charmander</h5>
         </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="fuego">
+        <div style={{border: "3px solid violet"}} class="fuego">
           <CardMedia
             component="img"
-             style={{ width: "140px", height: "90px" }}
+            style={{ width: "60px", height: "80px" }}
             // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/005.png"
             alt="green iguana"
           />
-          <h5>Charmeleon</h5>
+          <h5 style={{fontSize: "13px"}}>Charmeleon</h5>
         </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="fuego">
+        <div style={{border: "3px solid violet"}} class="fuego">
           <CardMedia
             component="img"
-             style={{ width: "140px", height: "90px" }}
+            style={{ width: "60px", height: "80px" }}
             // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/006.png"
             alt="green iguana"
           />
-          <h5>Charizard</h5>
+          <h5 style={{fontSize: "13px"}}>Charizard</h5>
         </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="agua">
+        <div style={{border: "3px solid violet"}} class="agua">
           <CardMedia
             component="img"
-             style={{ width: "140px", height: "90px" }}
+            style={{ width: "60px", height: "80px" }}
             // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/007.png"
             alt="green iguana"
           />
-          <h5>Squirtle</h5>
+          <h5 style={{fontSize: "13px"}}>Squirtle</h5>
         </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="agua">
+        <div style={{border: "3px solid violet"}} class="agua">
           <CardMedia
             component="img"
-             style={{ width: "140px", height: "90px" }}
+            style={{ width: "60px", height: "80px" }}
             // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/008.png"
             alt="green iguana"
           />
-          <h5>Wartortle</h5>
+          <h5 style={{fontSize: "13px"}}>Wartortle</h5>
         </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="agua">
+        <div style={{border: "3px solid violet"}} class="agua">
           <CardMedia
             component="img"
-             style={{ width: "140px", height: "90px" }}
+            style={{ width: "60px", height: "80px" }}
             // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/009.png"
             alt="green iguana"
           />
-          <h5>Blastoise</h5>
+          <h5 style={{fontSize: "13px"}}>Blastoise</h5>
         </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="veneno">
+        <div style={{border: "3px solid violet"}} class="veneno">
           <CardMedia
             component="img"
-             style={{ width: "140px", height: "90px" }}
+            style={{ width: "60px", height: "80px" }}
             // height="250"
             // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
             image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/109.png"
             alt="green iguana"
           />
-          <h5>Koffing</h5>
-        </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="veneno">
-          <CardMedia
-            component="img"
-             style={{ width: "140px", height: "90px" }}
-            // height="250"
-            // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
-            image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/088.png"
-            alt="green iguana"
-          />
-          <h5>Grimer</h5>
-        </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="veneno">
-          <CardMedia
-            component="img"
-             style={{ width: "140px", height: "90px" }}
-            // height="250"
-            // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
-            image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/089.png"
-            alt="green iguana"
-          />
-          <h5>Muk</h5>
-        </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="electricidad">
-          <CardMedia
-            component="img"
-             style={{ width: "140px", height: "90px" }}
-            // height="250"
-            // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
-            image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/025.png"
-            alt="green iguana"
-          />
-          <h5>Pikachu</h5>
-        </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="electricidad">
-          <CardMedia
-            component="img"
-             style={{ width: "140px", height: "90px" }}
-            // height="250"
-            // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
-            image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/026.png"
-            alt="green iguana"
-          />
-          <h5>Raichu</h5>
-        </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="electricidad">
-          <CardMedia
-            component="img"
-             style={{ width: "140px", height: "90px" }}
-            // height="250"
-            // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
-            image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/145.png"
-            alt="green iguana"
-          />
-          <h5>Zapdos</h5>
-        </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="normal">
-          <CardMedia
-            component="img"
-             style={{ width: "140px", height: "90px" }}
-            // height="250"
-            // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
-            image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/056.png"
-            alt="green iguana"
-          />
-          <h5>Mankey</h5>
-        </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="normal">
-          <CardMedia
-            component="img"
-             style={{ width: "140px", height: "90px" }}
-            // height="250"
-            // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
-            image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/057.png"
-            alt="green iguana"
-          />
-          <h5>Primeape</h5>
-        </div>
-        <div style={{border: "7px solid violet", borderRadius: "100%"}} class="normal">
-          <CardMedia
-            component="img"
-             style={{ width: "140px", height: "90px" }}
-            // height="250"
-            // image={https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/002.png"}
-            image="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/067.png"
-            alt="green iguana"
-          />
-          <h5>Machoke</h5>
+          <h5 style={{fontSize: "13px"}}>Koffing</h5>
         </div>
       </article>
     </body>
