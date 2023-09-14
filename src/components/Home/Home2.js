@@ -23,7 +23,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a style={{backgroundColor: "white"}}
-                  href="https://wa.me/1144217241/"
+                  href="https://wa.me/541144217241/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
