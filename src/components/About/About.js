@@ -28,24 +28,8 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{
-              // display: "flex",
-              // justifyContent: "center",
-              // alignItems: "center",
-              // overflow: "hidden",
-              // paddingTop: "30px",
-              // paddingBottom: "30px",
-            }}
             className="about-img circular-image"
           >
-            {/* <Tilt>
-              <img
-                style={{ height: "450px", width: "450px" }}
-                src={gaby}
-                alt="about"
-                className="img-fluid rounded-circle"
-              />
-            </Tilt> */}
             <Tilt>
               <img
                 style={{ borderRadius: "200px", marginTop: "10px", marginBottom: "50px" }}
@@ -58,7 +42,7 @@ function About() {
         </Row>
         <h1 style={{marginTop: "100px"}} className="project-heading">
           Algunos de nuestros{" "}
-          <strong id="huespedes" style={{ color: "violet" }}>HUESPEDES </strong>
+          <strong id="huespedes" style={{ color: "violet" }}>HUÉSPEDES </strong>
         </h1>
 
         <Techstack />
