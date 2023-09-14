@@ -1,22 +1,9 @@
 import { React, useState } from "react";
-import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import lalo from "../../Assets/lalo.png";
-import poli from "../../Assets/polonia.png";
+import {  Row } from "react-bootstrap";
 import atenas from "../../Assets/atenas.png";
-import negrito from "../../Assets/negrito.jpeg";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 
 function Techstack() {
