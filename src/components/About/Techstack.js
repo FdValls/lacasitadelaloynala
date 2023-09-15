@@ -105,7 +105,7 @@ function Techstack() {
             image={pipe}
             alt="green iguana"
           />
-          <h5>Nalita</h5>
+          <h5>Pipe</h5>
         </div>
       </article>
     </body>

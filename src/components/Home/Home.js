@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import mainPhoto from "../../Assets/main-photo.jpeg";
+import dog from "../../Assets/dog_bis.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -14,26 +15,27 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1
-                style={{ paddingBottom: 15, fontSize: "35px" }}
-                className="heading"
-              >
+              <h1 style={{ paddingBottom: 15 }} className="heading ">
                 Hola!!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
-              <h1
-                style={{ paddingBottom: 15, fontSize: "35px" }}
-                className="heading-name"
-              >
+              <h1 style={{ paddingBottom: 15 }} className="heading-name">
                 Bienvenidos a{" "}
-                <strong className="main-name"> La casita Lalo y Nala </strong>
+                <strong className="main-name">
+                  {" "}
+                  La casita Lalo y Nala
+                  <span className="wave" role="img" aria-labelledby="wave">
+                  <img src={dog} />
+
+                  </span>
+                </strong>
               </h1>
               <br />
               <h1 className="heading-name">
-                <p style={{ fontSize: "35px" }}>
+                <p>
                   Mi nombre es <strong className="main-name"> Gabriela </strong>
                   , en "La casita de Lalo y Nala" cuidamos a los perritos cuando
                   sus humanos se van de vacaciones o requieran algunos días de
