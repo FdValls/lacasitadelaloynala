@@ -26,7 +26,7 @@ function Home() {
                 Bienvenidos a{" "}
                 <strong className="main-name">
                   {" "}
-                  La casita Lalo y Nala
+                  La casita de Lalo y Nala
                   <span className="wave" role="img" aria-labelledby="wave">
                   <img src={dog} />
 
