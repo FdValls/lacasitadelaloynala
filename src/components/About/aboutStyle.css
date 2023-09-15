@@ -41,42 +41,19 @@ img {
   margin: 10px;
 }
 
-
-/* ------------------------------------ */
-
-/* Color de fondo según tipo */
-.normal {
+.violet-purple {
   background: radial-gradient(circle,
       rgba(255, 255, 255, 1) 0%,
-      rgba(168, 167, 122, 1) 100%);
+      rgb(156, 56, 135) 100%);
+  color: rgb(83, 27, 83);
 }
 
-.agua {
-  background: radial-gradient(circle,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(99, 144, 240, 1) 100%);
+h5{
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.fuego {
-  background: radial-gradient(circle,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(238, 129, 48, 1) 100%);
-}
-
-.electricidad {
-  background: radial-gradient(circle,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(247, 208, 44, 1) 100%);
-}
-
-.planta {
-  background: radial-gradient(circle,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(122, 199, 76, 1) 100%);
-}
-
-.veneno {
-  background: radial-gradient(circle,
-      rgba(255, 255, 255, 1) 0%,
-      rgb(104, 40, 90) 100%);
+.cardSize{
+  width: 160px;
+  height: 170px;
 }
