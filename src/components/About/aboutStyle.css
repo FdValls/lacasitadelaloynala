@@ -1,25 +1,3 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border-radius: 20px;
-} */
-
-/* body {
-  height: 100%;
-  width: 100vw;
-  background-image: radial-gradient(circle,
-      #3a3b38,
-      #2f3230,
-      #262928,
-      #1e2020,
-      #161718);
-} */
-
-/* ----------- ALUMNO ----------------- */
-/* Aca debe colocar los estilos necesarios para generar el layout
- que se ve en la imagen*/
-
 .contenedor {
   display: flex;
   flex-direction: row;
@@ -42,18 +20,22 @@ img {
 }
 
 .violet-purple {
-  background: radial-gradient(circle,
+  /* background: radial-gradient(circle,
       rgba(255, 255, 255, 1) 0%,
       rgb(156, 56, 135) 100%);
-  color: rgb(83, 27, 83);
+  color: rgb(83, 27, 83); */
+  color: violet;
 }
 
-h5{
+h5 {
   font-weight: bold;
   font-size: 20px;
 }
 
-.cardSize{
+.cardSize {
   width: 160px;
   height: 170px;
+  border: 3px solid violet;
+  box-shadow: violet 0px 0px 5px 5px;
+  border-radius: 15%;
 }
