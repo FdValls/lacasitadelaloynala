@@ -274,13 +274,16 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  /* padding: 9rem 0 2rem !important; */
+  padding: 20px;
+  margin-top: 2%;
   color: whitesmoke;
   text-align: left;
 }
 
 .heading {
-  font-size: 2.4em !important;
+  font-size: 35px;
+  /* font-size: 2.4em !important; */
   padding-left: 50px !important;
 }
 
@@ -318,9 +321,9 @@ button:focus {
   }
 }
 
-.myAvtar {
+.myAvatar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  /* padding-top: 9em !important; */
 }
 
 @media (max-width: 767px) {

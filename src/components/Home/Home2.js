@@ -11,7 +11,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row style={{justifyContent: "center"}}>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvatar">
             <Tilt>
               <img  style={{ borderRadius: "200px" }} src={gabyPerfil} className="img-fluid border-violeta" alt="avatar" />
             </Tilt>
