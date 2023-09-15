@@ -3,7 +3,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import PetsIcon from '@mui/icons-material/Pets';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
