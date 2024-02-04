@@ -32,7 +32,7 @@ function About() {
           >
             {/* <Tilt> */}
             <img
-              style={{ borderRadius: "200px", marginTop: "10px", marginBottom: "50px" }}
+              style={{ borderRadius: "60%", marginTop: "10px", marginBottom: "50px", width: "450px", height: "450px" }}
               src={gaby}
               className="img-fluid border-violeta"
               alt="avatar"

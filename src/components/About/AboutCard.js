@@ -8,25 +8,21 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0 ">
           <br />
-          <ul style={{ fontSize: "35px" }}>
+          <ul style={{ fontSize: "25px" }}>
             <li className="about-activity">
               {/* className="wave" role="img" aria-labelledby="wave" */}
               <ImHeart className="wave" /> Atención personalizada
             </li>
-            <br />
             <li className="about-activity">
               <ImHeart className="wave" /> Máximo un perrito por estadía
             </li>
-            <br />
             <li className="about-activity">
               <ImHeart className="wave" /> Reporte diario
             </li>
-            <br />
             <li className="about-activity">
               <ImHeart className="wave" /> Aceptamos perritos medianos y
               pequeños
             </li>
-            <br />
             <li className="about-activity">
               <ImHeart className="wave" /> Estamos ubicados en el barrio de
               Villa Urquiza

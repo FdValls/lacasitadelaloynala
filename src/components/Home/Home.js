@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import About from "../About/About.js";
+import styles from "./Home.module.css"
 
 function Home() {
   return (
@@ -57,17 +58,15 @@ function Home() {
             <Col
               md={5}
               style={{
-                paddingBottom: 20,
+                // paddingBottom: 20,
                 textAlign: "center",
-                marginTop: "100px",
+                alignSelf: "center",
               }}
             >
               <img
                 src={mainPhoto}
                 alt="home pic"
-                className="img-fluid"
-                // style={{ maxHeight: "550px", borderRadius: "50%" }}
-                style={{ height: "450px", width: "450px", borderRadius: "50%" }}
+                className={`img-fluid ${styles.circularImage}`}
               />
             </Col>
           </Row>
