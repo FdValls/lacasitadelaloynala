@@ -30,17 +30,17 @@ function About() {
             md={5}
             className="about-img circular-image"
           >
-            <Tilt>
-              <img
-                style={{ borderRadius: "200px", marginTop: "10px", marginBottom: "50px" }}
-                src={gaby}
-                className="img-fluid border-violeta"
-                alt="avatar"
-              />
-            </Tilt>
+            {/* <Tilt> */}
+            <img
+              style={{ borderRadius: "200px", marginTop: "10px", marginBottom: "50px" }}
+              src={gaby}
+              className="img-fluid border-violeta"
+              alt="avatar"
+            />
+            {/* </Tilt> */}
           </Col>
         </Row>
-        <h1 style={{marginTop: "100px"}} className="project-heading">
+        <h1 style={{ marginTop: "100px" }} className="project-heading">
           Algunos de nuestros{" "}
           <strong id="huespedes" style={{ color: "violet" }}>HUÉSPEDES </strong>
         </h1>
