@@ -1,15 +1,15 @@
 /* Estilos para pantallas grandes */
 .circularImage {
-  height: 350px !important;
+  border-radius: 60%;
   width: 350px !important;
-  border-radius: 50%;
+  height: 350px !important;
+  align-self: center;
 }
 
-/* Media query para pantallas más pequeñas */
 @media screen and (max-width: 768px) {
   .circularImage {
-    height: 350px;  
-    width: 350px; 
+    height: 250px !important;  
+    width: 250px !important;  
     border-radius: 60%;
   }
 }
