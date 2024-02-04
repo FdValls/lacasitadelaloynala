@@ -12,9 +12,7 @@ function Home2() {
       <Container>
         <Row style={{ justifyContent: "center" }}>
           <Col md={4} className="myAvatar">
-            {/* <Tilt> */}
             <img style={{ borderRadius: "200px" }} src={gabyPerfil} className="img-fluid border-violeta" alt="avatar" />
-            {/* </Tilt> */}
           </Col>
         </Row>
         <Row>

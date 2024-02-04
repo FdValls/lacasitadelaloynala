@@ -27,11 +27,11 @@ function About() {
             <Aboutcard />
           </Col>
           <Col
-            md={5}
-            className="about-img circular-image"
+            md={4}
+            className="img-fluid circular-image"
           >
             <img
-              style={{ borderRadius: "60%", width: "350px", height: "350px", alignSelf: "center" }}
+              style={{ borderRadius: "60%", width: "250px", height: "250px", alignSelf: "center" }}
               src={gaby}
               className="img-fluid border-violeta"
               alt="avatar"
