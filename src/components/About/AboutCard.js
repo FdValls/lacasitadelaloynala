@@ -10,7 +10,6 @@ function AboutCard() {
           <br />
           <ul style={{ fontSize: "25px" }}>
             <li className="about-activity">
-              {/* className="wave" role="img" aria-labelledby="wave" */}
               <ImHeart className="wave" /> Atención personalizada
             </li>
             <li className="about-activity">

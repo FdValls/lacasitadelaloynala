@@ -5,11 +5,10 @@
   border-radius: 50%;
 }
 
-/* Media query para pantallas más pequeñas */
 @media screen and (max-width: 768px) {
   .circularImage {
-    height: 350px;  /* Ajusta la altura para pantallas más pequeñas */
-    width: 350px;   /* Ajusta el ancho para pantallas más pequeñas */
+    height: 350px;  
+    width: 350px;   
     border-radius: 60%;
   }
 }

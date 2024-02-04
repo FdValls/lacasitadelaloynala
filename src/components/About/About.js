@@ -30,14 +30,12 @@ function About() {
             md={5}
             className="about-img circular-image"
           >
-            {/* <Tilt> */}
             <img
-              style={{ borderRadius: "60%", marginTop: "10px", marginBottom: "50px", width: "450px", height: "450px" }}
+              style={{ borderRadius: "60%", width: "350px", height: "350px", alignSelf: "center" }}
               src={gaby}
               className="img-fluid border-violeta"
               alt="avatar"
             />
-            {/* </Tilt> */}
           </Col>
         </Row>
         <h1 style={{ marginTop: "100px" }} className="project-heading">
